@@ -1,4 +1,8 @@
 TODO:
+1. Разобраться с defaultProps;
+2. Оформить NavigationMenu, чтобы оно отображалось по человечески;
+
+DONE:
 1. Установить расширение 'VisualStudioKeymap';
 2. В Footer доьавить значек Copyright;
 3. Год в Footer-e должен меняться автоматически;

@@ -1,9 +1,12 @@
 import './Article.css';
 
-function Article() {
+function Article(props) {
+    let {title, content} = props;   //Деструктуризация
     return(
         <article>
-            <h2>Современные десктопные процессоры архитектуры x86
+            <h1 style={{color:"darkblue", fontSize:"48px"}}>{title}</h1>
+            {content}
+            {/* <h2>Современные десктопные процессоры архитектуры x86
                 общие принципы работы (x86 CPU digest 2.0)</h2>
 
             <p>
@@ -21,10 +24,15 @@ function Article() {
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia blanditiis veritatis reiciendis cupiditate corporis officia quis pariatur, animi inventore rerum quasi. Quasi tenetur pariatur non voluptates, iusto et libero quia?</p>
 
-            
+             */}
 
         </article>
     )
 }
+
+Article.defaultProps = {
+    title:  `Заголовок статьи`,
+    content:`Содержимое статьи`
+};
 
 export default Article;
