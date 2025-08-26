@@ -1,5 +1,12 @@
 TODO:
+1. Карточки должны выстаиваться в строку, и перенос карточки на следующую строку должен быть по необходимости;
+2. Залить проект на GitHub-Pages;
+3. Прислать ссылку на GitHub-pages c React проектом;
+
+DONE:
 1. Разобраться с defaultProps;
+    // https://react.dev/blog/2024/04/25/react-19-upgrade-guide#removed-proptypes-and-defaultprops
+    // https://react.dev/learn/passing-props-to-a-component
 2. Оформить NavigationMenu, чтобы оно отображалось по человечески;
 
 DONE:
